@@ -1,0 +1,16 @@
+﻿__pycache__/
+*.pyc
+.DS_Store
+
+# Datasets
+*.zip
+Antique.zip
+Dataset/
+data/
+
+# Large model files (>100MB)
+模型使用/*.pth
+!模型使用/efficientnet_b0_final.pth
+
+# Ignore large GUI if not using LFS (but we are used LFS for specific file)
+# 模型使用/*.exe
